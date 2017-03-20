@@ -2,10 +2,10 @@ body
 {
   font-size: 20px;
   font-style: italic;
-  font-family: serif,cursive;
+  font-family: serif;
 }
 .paragraph
 {
   font-size: 0.7em;
-  font-family: sans-serif;
+  font-family: cursive;
 }
