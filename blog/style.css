@@ -10,3 +10,10 @@ body
   font-family: cursive;
   padding-left: 50px;
 }
+.image
+{
+  margin: auto;
+  width: 50%;
+  border: 2px blue;
+  padding: 20px;
+}
