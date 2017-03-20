@@ -4,10 +4,11 @@ body
   font-style: italic;
   font-family: serif;
 }
+
 top
 {
   font-size: 0.7em;
   font-family: cursive;
   font-style: oblique;
-  padding: 25px 50px 25px
+  padding: 25px 50px 25px 100px;
 }
