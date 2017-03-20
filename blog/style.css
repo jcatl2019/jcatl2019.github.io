@@ -1,7 +1,12 @@
 body
 {
-  font-size: 0.7em;
-  font-family: cursive;
+  font-size: 20px;
+  font-family: serif;
   font-style: oblique;
-  padding: 25px 50px 25px 100px;
+}
+.top
+{
+  font-size: 0.9em;
+  font-family: cursive;
+  padding-left: 50px
 }
