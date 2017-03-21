@@ -20,4 +20,5 @@ body
 .container
 div {
   width: 50%; height: 50%;
+  max-width: 100%;
 }
