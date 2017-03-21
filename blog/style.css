@@ -10,6 +10,12 @@ body
   font-family: cursive;
   padding-left: 50px;
 }
+.top
+{
+  padding-left: 50px;
+  font-size: 0.8em;
+  font-family: cursive;
+}
 .container
 div {
   transform: scale(15%);
