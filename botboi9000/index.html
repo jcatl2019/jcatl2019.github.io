@@ -66,10 +66,10 @@ document.onkeyup = function(e) {
 		<br>
     <div class="row">
       <div class="col">
-        <div class="card text-white border-light bg-dark mb-3 w-25">
+        <div class="card border-light bg-dark mb-3 w-25">
           <h4 class="card-header">direction-y boi 3000</h4>
           <div class="card-body">
-            <table>
+            <table class="table table-responsive table-dark">
         <tr>
           <td colspan="2" style="text-align: center">
             <button class="btn btn-primary" type="button" value="Forward" id="goforward" onmousedown="direction('forward')" onmouseup="direction('sthap')" role="button">Forward</button>
@@ -92,31 +92,34 @@ document.onkeyup = function(e) {
           </div>
         </div>
         <div class="col">
-        <div class="card text-white border-light bg-dark mb-3 w-25">
+        <div class="card border-light bg-dark mb-3 w-25">
           <h4 class="card-header">Sensor boi 3000</h4>
           <div class="card-body">
-            <table style="width: 20rem">
+            <table class="table table-responsive">
+              <thead>
               <tr>
-                <th>Speed:</th>
-                <th>Magnetic:</th>
-                <th>Light:</th>
+                <th scope="col">Speed:</th>
+                <th scope="col">Magnetic:</th>
+                <th scope="col">Light:</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td>{{speedvar}}</td>
                 <td>{{magvar}}</td>
                 <td>{{lightvar}}</td>
               </tr>
+            </tbody>
             </table>
     </div>
   </div>
   <div class="col">
-    <div class="card text-white border-light bg-dark mb-3 w-25">
+    <div class="card border-light bg-dark mb-3 w-25">
       <h4 class="card-header">Text-to-speed 3000</h4>
       <div class="card-body">
         <form>
           <div class="form-group">
-            <input type="text" id="amount" value="">
-            <small class="form-text text-muted">Type something in</small>
+            <input class="form-control form-control-responsive" type="text" id="amount" value="" placeholder="I feel the need, the need for speed">
           </div>
           <button class="btn btn-primary" type="submit" value="submit" onmousedown="MotorPower(value)">click if ur a pleb</button>
         </form>
